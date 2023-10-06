@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+  }
+  .signUpPage{
+    min-height:100vh;
+    min-width:100vw;
+    background-color:rgb(22, 22, 30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .signup-container{
+    padding:40px 10px 40px 10px;
+    min-width: 18rem;
+    min-height: 400px;
+    position: absolute;
+    background-color:rgb(50, 50, 68);
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    border-radius: 10px;
+  }
+  .input-container{
+    /* padding: 10px 20px; */
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    font-weight: 500;
+  }
+  
+  .name-input{
+    width: 13rem;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid rgb(22, 22, 30);
+    border-radius: 8px;
+  }
+  .password-input{
+    width: 13rem;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid rgb(22, 22, 30);
+    border-radius: 8px;
+  }
+  .name-input:hover{
+    padding: 10px 20px;
+    outline: none;
+    border: 2px solid rgb(22, 22, 30);
+    border-radius: 8px;
+  }
+  
+  .password-input:hover{
+    padding: 10px 20px;
+    outline: none;
+    border: 2px solid rgb(22, 22, 30);
+    border-radius: 8px;
+  }
+  .name-input:focus{
+    padding: 10px 20px;
+    outline: none;
+    border: 3px solid rgb(22, 22, 30);
+    border-radius: 8px;
+  }
+  
+  .password-input:focus{
+    padding: 10px 20px;
+    outline: none;
+    border: 3px solid rgb(22, 22, 30);
+    border-radius: 8px;
+  }
+
+  .email-input{
+    width: 13rem;
+    padding: 10px 20px;
+    outline: none;
+    border: 1px solid rgb(22, 22, 30);
+    border-radius: 8px;
+  }
+  .email-input:hover{
+    padding: 10px 20px;
+    outline: none;
+    border: 2px solid rgb(22, 22, 30);
+    border-radius: 8px;
+  }
+  .email-input:focus{
+    padding: 10px 20px;
+    outline: none;
+    border: 3px solid rgb(22, 22, 30);
+    border-radius: 8px;
+  }
+  .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .button{
+    background-color: rgb(51, 9, 78);
+    color: white;
+    font-weight: 600;
+    border:white 1px solid;
+    min-height: 30px;
+    min-width: 75px;
+    border-radius: 6px;
+    padding: 10px;
+    margin: 0px 8px;
+  }
+  .button:hover{
+    background-color: rgb(51, 9, 78);
+    color: white;
+    font-weight: 600;
+    border:white 2px solid;
+    border-radius: 6px;
+    padding: 10px;
+  }
+ 
